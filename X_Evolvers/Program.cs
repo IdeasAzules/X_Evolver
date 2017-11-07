@@ -66,7 +66,7 @@ namespace X_Evolvers
                     m = int.Parse(Console.ReadLine());
                     
                     int [] a = new int[6];
-                    Console.WriteLine("Captura los datos del vector");
+                    Console.WriteLine("Captura los datos del vector (debe de ser 6 datos)");
                     for (int i=0; i<m; i++)
                     {
                         Console.Write("[" + i + "]=");
@@ -83,7 +83,7 @@ namespace X_Evolvers
                     
                     int[] b = new int[6];
                     int valor1;
-                    Console.WriteLine("Captura los datos del vector");
+                    Console.WriteLine("Captura los datos del vector (debe de ser 6 datos)");
                     int s;
                     s = int.Parse(Console.ReadLine());
                     for (int j = 0; j < s; j++)
