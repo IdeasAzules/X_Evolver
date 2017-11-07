@@ -27,7 +27,6 @@ namespace X_Evolvers
             }
             catch (Exception)
             {
-               
                 //Console.Write("Dato no valido");
             }
 
