@@ -8,7 +8,7 @@ namespace X_Evolvers
 {
     public class UserAge
     {
-        public int userAge(int years)
+        public void userAge(int years)
         {
 
             int age = 0;
@@ -27,11 +27,9 @@ namespace X_Evolvers
                 if ((years > 1912))
             {
                 age = 2017 - years;
+                Console.WriteLine("Tú edad es:" + age);
             }
-
-
-
-            return age;
+            //return age;
         }
     }
 }

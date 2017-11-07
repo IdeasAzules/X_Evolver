@@ -8,6 +8,16 @@ namespace X_Evolvers
 {
     public class Print1_100
     {
+        public void printer()
+        {
+            int num;
+            for(int k=0; k<101; k++)
+            {
+                num = k;
+                Console.Write("["+k+"]");
+            }
+        
+        }
         public void printNumber()
         {
             for (int i = 1; i <= 100; i++)

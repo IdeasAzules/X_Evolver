@@ -17,6 +17,7 @@ namespace X_Evolvers
             int[] z = merge.ToArray();//make the list a fix
             try
             {
+                Console.Write("Convinación ordenado de los dos vectores:\n");
                 for (int i = 0; i < 13; i++)
                 {
                     //Sort the list and print the values.
@@ -26,7 +27,8 @@ namespace X_Evolvers
             }
             catch (Exception)
             {
-
+               
+                //Console.Write("Dato no valido");
             }
 
 
